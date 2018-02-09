@@ -1,0 +1,19 @@
+{
+  "Host": {
+    "TrexPairsLocation": "C:\\Users\\Administrator\\Desktop\\Crow Bot\\trading",
+    "PoloPairsLocation": "",
+    "BinancePairsLocation": "",
+    "HostName": "BTC",
+    "LicenseKey": "YOUR LICENSE KEY",
+    "ServerUrls": "http://localhost:8083",
+    "MarketConditionCheckInMinutes": "3",
+    "CalculateTrailingValues": "true",
+    "UseMaxCostPercentage": "true",
+    "UseMinBuyBalancePercentage": "true",
+    "TelegramBotId": "YOUR TELEGRAM BOT ID",
+    "TelegramChatId": "YOUR BOT ID"
+  },
+  "Serilog": {
+    "MinimumLevel": "Information"
+  }
+}
