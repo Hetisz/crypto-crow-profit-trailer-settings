@@ -10,7 +10,7 @@ unzip PT-Files.zip
 
 if [[ -z $(git status -s) || $(git diff --shortstat 2> /dev/null | tail -n1) != "" ]]; then
   git add .
-  git ci -m "Updated settings: $DATETIME"
+  git commit -m "Updated settings: $DATETIME"
   git push origin :refs/tags/$DATE
   git tag -f $DATE
   git push
