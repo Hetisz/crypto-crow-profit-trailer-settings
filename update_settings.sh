@@ -3,6 +3,7 @@
 DATETIME=`date '+%Y-%m-%d %H:%M:%S'`
 DATE=`date +%Y-%m-%d`
 
+cd "${0%/*}"
 rm PT-Files.zip
 rm -fr PT\ Files
 curl -o PT-Files.zip -L http://jasonappleton.com/Settings &> /dev/null
